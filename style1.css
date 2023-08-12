@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    height: 9999px;
+}
+
+.navbar {
+    width: 103%;
+    height: 70px;
+    background-color: #91C8E4;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar img {
+    width: 150px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    float: right;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: crimson;
+}
+
+.banner {
+  width: 50%;
+    position: relative;
+    width: 100%;
+}
+
+.banner a img {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.deskripsi {
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 47%;
+    float: right;
+    position: absolute;
+}
+
+.deskripsi h1 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deskripsi a p {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F4D160;
+    border-radius: 20px;
+    width: 190px;
+    color: black;
+    font-family: comic sans ms;
+    font-weight: bold;
+}
+
+.deskripsi a p:hover {
+    color: crimson;
+}
+
+.deskripsi p {
+    font-size: 18px;
+}
+
+.deskripsi a img {
+    width: 40px;
+}
+
+.resep {
+    position: relative;
+}
+
+.resep .judul {
+    position: absolute;
+    margin-top: 500px;
+}
+
+
+
+/* Ini adalah tabel */
+
+.judul {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.alat {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.alat th {
+    padding: 10px;
+}
+
+.alat td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.th1 {
+    background-color: #F4D160;
+}
+
+.th1:hover {
+    background-color:   red;
+}
+
+.th2 {
+    background-color: #91C8E4;
+}
+
+.th2:hover {
+    background-color: red;
+}
+
+.th3 {
+    background-color: chartreuse;
+}
+
+.th3:hover {
+    background-color: red;
+}
+
+.th4 {
+    background-color: chocolate;
+}
+
+.th4:hover {
+    background-color: red;
+}
+
+.th5 {
+    background-color: crimson;
+}
+
+.th5:hover {
+    background-color: red;
+}
+
+.td1 {
+    text-align: right;
+}
+
+.td1:hover {
+    background-color: yellow;
+}
+
+.td2:hover {
+    background-color: greenyellow;
+}
+
+.td3:hover {
+    background-color: yellow;
+}
+
+.td4:hover {
+    background-color: greenyellow;
+}
+
+.td5:hover {
+    background-color: yellow;
+}
+
+.td6:hover {
+    background-color: greenyellow;
+}
+
+.td7:hover {
+    background-color: yellow;
+}
+
+.td8:hover {
+    background-color: greenyellow;
+}
+
+.td9:hover {
+    background-color: yellow;
+}
+
+.td10:hover {
+    background-color: greenyellow;
+}
+
+.td8:hover {
+    background-color: greenyellow;
+}
+
+.td1 .beda {
+    text-align: center;
+}
+
+.td3 .beda {
+    text-align: center;
+}
+
+.td4 .beda {
+    text-align: center;
+}
+
+.td5 {
+    text-align: right;
+}
+
+.td5 .beda {
+    text-align: center;
+}
+
+.td6 {
+    text-align: left;
+}
+
+.td6 .beda {
+    text-align: center;
+}
+
+.detail {
+    margin: 80px 20px;
+}
+
+.detail .p1 {
+    margin-top: 20px  ;
+}
+
+.td7 {
+    text-align: right;
+}
+
+.td8 {
+    text-align: left;
+}
+
+.td9 {
+    text-align: left;
+}
+
+.td10 {
+    text-align: right;
+}
+
+.error {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+.btn-login {
+    background-color: aqua;
+    padding: 10px 40px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+.btn-login a {
+    font-size: 20px;
+    color: black;
+}
+
+.btn-login:hover {
+    background-color: chartreuse;
+}
+
+.btn-login a:hover {
+    color: white;
+}
